@@ -1,0 +1,8 @@
+wget==not installed
+pandas==1.1.3
+numpy==1.19.1
+geopy==not installed
+altair==4.1.0
+vega==not installed
+vega_datasets==0.9.0
+watermark==2.2.0
