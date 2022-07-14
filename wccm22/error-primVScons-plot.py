@@ -10,11 +10,10 @@ def plot(runs, show):
     fig, ax = plt.subplots(figsize=(10, 6), layout='tight')
     ax.set(xscale='log', yscale='log', ylim=(3e-5,5e-2))
     sns.scatterplot(
-        x='Effective Resolution',
+        x='Resolution',
         y='Relative Error',
         style='Variable',
         markers={'Total Energy': 's', 'Temperature': '^'},
-        size='Polynomial Order',
         palette='bright',
         hue='State Variables',
         sizes=(40, 200),
@@ -22,6 +21,7 @@ def plot(runs, show):
         ax=ax,
         data=runs,
     )
+    plt.ylim(1e-4, .5)
     plt.legend(loc='upper right')
     if show:
         plt.show()

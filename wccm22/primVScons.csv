@@ -1,33 +1,21 @@
-,State Variables,Variable,res,Polynomial Order,Effective Resolution,Relative Error
-0,Cons,Temperature,5,1,5,0.0165109       
-1,Cons,Total Energy,5,1,5,0.0844457      
-2,Cons,Temperature,5,2,10,0.0610389       
-3,Cons,Total Energy,5,2,10,0.163582   
-4,Cons,Temperature,10,1,10,0.0200701       
-5,Cons,Total Energy,10,1,10,0.064129     
-6,Cons,Temperature,10,2,20,0.00237827      
-7,Cons,Total Energy,10,2,20,0.0080111   
-8,Cons,Temperature,20,1,20,0.000777308     
-9,Cons,Total Energy,20,1,20,0.00233761      
-10,Cons,Temperature,20,2,40,0.000653399     
-11,Cons,Total Energy,20,2,40,0.00171617     
-12,Cons,Temperature,40,1,40,4.97752e-06
-13,Cons,Total Energy,40,1,40,0.000162524     
-14,Cons,Temperature,40,2,80,0.00029693      
-15,Cons,Total Energy,40,2,80,0.000365223   
-16,Prim,Total Energy,5,1,5,0.0899736       
-17,Prim,Temperature,5,1,5,0.0208008       
-18,Prim,Total Energy,5,2,10,0.0832196       
-19,Prim,Temperature,5,2,10,0.0358409       
-20,Prim,Total Energy,10,1,10,0.0387613       
-21,Prim,Temperature,10,1,10,0.0129388       
-22,Prim,Total Energy,10,2,20,0.00908427      
-23,Prim,Temperature,10,2,20,0.00363418      
-24,Prim,Total Energy,20,1,20,0.00296709      
-25,Prim,Temperature,20,1,20,0.000931558     
-26,Prim,Total Energy,20,2,40,0.00195778      
-27,Prim,Temperature,20,2,40,0.000991427     
-28,Prim,Total Energy,40,1,40,0.000166579     
-29,Prim,Temperature,40,1,40,2.48701e-06
-30,Prim,Total Energy,40,2,80,0.00055909      
-31,Prim,Temperature,40,2,80,0.000321008     
+,State Variables,Variable,Resolution,Relative Error
+0,Conservative,Temperature,5,0.0307548 
+1,Conservative,Total Energy,5,0.20337          
+2,Conservative,Temperature,10,0.0377644   
+3,Conservative,Total Energy,10,0.0628584    
+4,Conservative,Temperature,20,0.0468157   
+5,Conservative,Total Energy,20,0.0544584        
+6,Conservative,Temperature,40,0.00751711
+7,Conservative,Total Energy,40,0.01885    
+8,Conservative,Temperature,80,0.00380875
+9,Conservative,Total Energy,80,0.00889511
+10,Primitive,Total Energy,5,0.201129         
+11,Primitive,Temperature,5,0.0644453               
+12,Primitive,Total Energy,10,0.103427   
+13,Primitive,Temperature,10,0.0565215           
+14,Primitive,Total Energy,20,0.0211085  
+15,Primitive,Temperature,20,0.00976464          
+16,Primitive,Total Energy,40,0.00387867 
+17,Primitive,Temperature,40,0.00216535   
+18,Primitive,Total Energy,80,0.000964253
+19,Primitive,Temperature,80,0.000494129 
