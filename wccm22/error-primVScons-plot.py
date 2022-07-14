@@ -12,7 +12,9 @@ def plot(runs, show):
     sns.scatterplot(
         x='Effective Resolution',
         y='Relative Error',
-        style='p',
+        style='Variable',
+        markers={'Total Energy': 's', 'Temperature': '^'},
+        size='Polynomial Order',
         palette='bright',
         hue='State Variables',
         sizes=(40, 200),

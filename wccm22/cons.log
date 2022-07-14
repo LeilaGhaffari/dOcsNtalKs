@@ -1,0 +1,425 @@
+Conservative Variables
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 20 20 22 22 22 20
+  Number of 1-cells per rank: 40 36 39 39 39 36
+  Number of 2-cells per rank: 25 21 22 22 22 21
+  Number of 3-cells per rank: 5 4 4 4 4 4
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (20), 1 (40), 2 (25), 3 (5))
+  marker: 1 strata with value/size (1 (40))
+  Face Sets: 2 strata with value/size (1 (5), 2 (5))
+  celltype: 4 strata with value/size (0 (20), 1 (40), 4 (25), 7 (5))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 5,5,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 200
+    Owned DoFs                         : 0
+    DoFs per node                      : 5
+    Global nodes                       : 40
+    Owned nodes                        : 20
+Time taken for solution (sec): 3.78995
+Relative Error converted from conservative to primitive:
+Component 0: 0.0562194 (0.0562194, 1.)
+Component 1: 0.153324 (0.15739, 1.02652)
+Component 2: 0.158542 (0.159944, 1.00884)
+Component 3: -nan. (0., 0.)
+Component 4: 0.0165109 (0.0165109, 1.)
+Relative Error in conservative:
+Component 0: 0.0403751 (0.0403751, 1.)
+Component 1: 0.196048 (0.201242, 1.02649)
+Component 2: 0.177554 (0.179119, 1.00881)
+Component 3: -nan. (0., 0.)
+Component 4: 0.0844457 (0.298568, 3.53563)
+Time integrator took 3 time steps to reach final time 1.2
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 20 20 22 22 22 20
+  Number of 1-cells per rank: 40 36 39 39 39 36
+  Number of 2-cells per rank: 25 21 22 22 22 21
+  Number of 3-cells per rank: 5 4 4 4 4 4
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (20), 1 (40), 2 (25), 3 (5))
+  marker: 1 strata with value/size (1 (40))
+  Face Sets: 2 strata with value/size (1 (5), 2 (5))
+  celltype: 4 strata with value/size (0 (20), 1 (40), 4 (25), 7 (5))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 5,5,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 1300
+    Owned DoFs                         : 130
+    DoFs per node                      : 5
+    Global nodes                       : 260
+    Owned nodes                        : 90
+Time taken for solution (sec): 13.1135
+Relative Error converted from conservative to primitive:
+Component 0: 0.124714 (0.124714, 1.)
+Component 1: 0.0990501 (0.104645, 1.05649)
+Component 2: 0.112948 (0.114277, 1.01176)
+Component 3: inf. (6.43315e-13, 0.)
+Component 4: 0.0610389 (0.0610389, 1.)
+Relative Error in conservative:
+Component 0: 0.0678275 (0.0678275, 1.)
+Component 1: 0.160168 (0.169192, 1.05634)
+Component 2: 0.172449 (0.17447, 1.01172)
+Component 3: inf. (6.45304e-13, 0.)
+Component 4: 0.163582 (0.582256, 3.55942)
+Time integrator took 5 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 56 58 58 58 56 54
+  Number of 1-cells per rank: 118 121 121 121 116 113
+  Number of 2-cells per rank: 79 80 80 80 76 75
+  Number of 3-cells per rank: 17 17 17 17 16 16
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (56), 1 (118), 2 (79), 3 (17))
+  marker: 1 strata with value/size (1 (124))
+  Face Sets: 2 strata with value/size (1 (17), 2 (17))
+  celltype: 4 strata with value/size (0 (56), 1 (118), 4 (79), 7 (17))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 10,10,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 800
+    Owned DoFs                         : 48
+    DoFs per node                      : 5
+    Global nodes                       : 160
+    Owned nodes                        : 56
+Time taken for solution (sec): 7.42337
+Relative Error converted from conservative to primitive:
+Component 0: 0.0466222 (0.0466222, 1.)
+Component 1: 0.0418059 (0.0423376, 1.01272)
+Component 2: 0.0416397 (0.0417242, 1.00203)
+Component 3: -nan. (0., 0.)
+Component 4: 0.0200701 (0.0200701, 1.)
+Relative Error in conservative:
+Component 0: 0.027773 (0.027773, 1.)
+Component 1: 0.0646143 (0.0654358, 1.01271)
+Component 2: 0.0705143 (0.0706572, 1.00203)
+Component 3: -nan. (0., 0.)
+Component 4: 0.064129 (0.225323, 3.51359)
+Time integrator took 5 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 56 58 58 58 56 54
+  Number of 1-cells per rank: 118 121 121 121 116 113
+  Number of 2-cells per rank: 79 80 80 80 76 75
+  Number of 3-cells per rank: 17 17 17 17 16 16
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (56), 1 (118), 2 (79), 3 (17))
+  marker: 1 strata with value/size (1 (124))
+  Face Sets: 2 strata with value/size (1 (17), 2 (17))
+  celltype: 4 strata with value/size (0 (56), 1 (118), 4 (79), 7 (17))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 10,10,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 5200
+    Owned DoFs                         : 598
+    DoFs per node                      : 5
+    Global nodes                       : 1040
+    Owned nodes                        : 270
+Time taken for solution (sec): 60.8227
+Relative Error converted from conservative to primitive:
+Component 0: 0.00996234 (0.00996234, 1.)
+Component 1: 0.00936598 (0.00944589, 1.00853)
+Component 2: 0.0041977 (0.00420382, 1.00146)
+Component 3: inf. (4.32743e-14, 0.)
+Component 4: 0.00237827 (0.00237827, 1.)
+Relative Error in conservative:
+Component 0: 0.00807844 (0.00807844, 1.)
+Component 1: 0.008937 (0.00901322, 1.00853)
+Component 2: 0.0115026 (0.0115194, 1.00145)
+Component 3: inf. (4.35903e-14, 0.)
+Component 4: 0.0080111 (0.0281087, 3.50872)
+Time integrator took 11 time steps to reach final time 1.1
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 176 178 178 178 176 174
+  Number of 1-cells per rank: 398 401 401 401 396 393
+  Number of 2-cells per rank: 289 290 290 290 286 285
+  Number of 3-cells per rank: 67 67 67 67 66 66
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (176), 1 (398), 2 (289), 3 (67))
+  marker: 1 strata with value/size (1 (444))
+  Face Sets: 2 strata with value/size (1 (67), 2 (67))
+  celltype: 4 strata with value/size (0 (176), 1 (398), 4 (289), 7 (67))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 20,20,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 3200
+    Owned DoFs                         : 368
+    DoFs per node                      : 5
+    Global nodes                       : 640
+    Owned nodes                        : 176
+Time taken for solution (sec): 15.4451
+Relative Error converted from conservative to primitive:
+Component 0: 0.00251027 (0.00251027, 1.)
+Component 1: 0.00218035 (0.00218151, 1.00053)
+Component 2: 0.00217725 (0.00217741, 1.00007)
+Component 3: -nan. (0., 0.)
+Component 4: 0.000777308 (0.000777308, 1.)
+Relative Error in conservative:
+Component 0: 0.00307413 (0.00307413, 1.)
+Component 1: 0.00235408 (0.00235533, 1.00053)
+Component 2: 0.00334003 (0.00334028, 1.00007)
+Component 3: -nan. (0., 0.)
+Component 4: 0.00233761 (0.00818294, 3.50056)
+Time integrator took 11 time steps to reach final time 1.1
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 176 178 178 178 176 174
+  Number of 1-cells per rank: 398 401 401 401 396 393
+  Number of 2-cells per rank: 289 290 290 290 286 285
+  Number of 3-cells per rank: 67 67 67 67 66 66
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (176), 1 (398), 2 (289), 3 (67))
+  marker: 1 strata with value/size (1 (444))
+  Face Sets: 2 strata with value/size (1 (67), 2 (67))
+  celltype: 4 strata with value/size (0 (176), 1 (398), 4 (289), 7 (67))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 20,20,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 20800
+    Owned DoFs                         : 2938
+    DoFs per node                      : 5
+    Global nodes                       : 4160
+    Owned nodes                        : 930
+Time taken for solution (sec): 147.188
+Relative Error converted from conservative to primitive:
+Component 0: 0.00204152 (0.00204152, 1.)
+Component 1: 0.00346343 (0.00346598, 1.00074)
+Component 2: 0.00164355 (0.00164372, 1.00011)
+Component 3: inf. (6.1974e-14, 0.)
+Component 4: 0.000653399 (0.000653399, 1.)
+Relative Error in conservative:
+Component 0: 0.00155114 (0.00155114, 1.)
+Component 1: 0.00257962 (0.00258152, 1.00074)
+Component 2: 0.00304665 (0.00304698, 1.00011)
+Component 3: inf. (6.19276e-14, 0.)
+Component 4: 0.00171617 (0.00600789, 3.50076)
+Time integrator took 20 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 616 618 618 618 616 614
+  Number of 1-cells per rank: 1458 1461 1461 1461 1456 1453
+  Number of 2-cells per rank: 1109 1110 1110 1110 1106 1105
+  Number of 3-cells per rank: 267 267 267 267 266 266
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (616), 1 (1458), 2 (1109), 3 (267))
+  marker: 1 strata with value/size (1 (1684))
+  Face Sets: 2 strata with value/size (1 (267), 2 (267))
+  celltype: 4 strata with value/size (0 (616), 1 (1458), 4 (1109), 7 (267))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 40,40,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 12800
+    Owned DoFs                         : 1808
+    DoFs per node                      : 5
+    Global nodes                       : 2560
+    Owned nodes                        : 616
+Time taken for solution (sec): 57.5284
+Relative Error converted from conservative to primitive:
+Component 0: 1.49864e-05 (1.49864e-05, 1.)
+Component 1: 0.000594674 (0.000595386, 1.0012)
+Component 2: 9.16959e-05 (9.17121e-05, 1.00018)
+Component 3: -nan. (0., 0.)
+Component 4: 4.97752e-06 (4.97752e-06, 1.)
+Relative Error in conservative:
+Component 0: 1.04093e-05 (1.04093e-05, 1.)
+Component 1: 0.00058749 (0.000588194, 1.0012)
+Component 2: 9.40866e-05 (9.41032e-05, 1.00018)
+Component 3: -nan. (0., 0.)
+Component 4: 0.000162524 (0.000569033, 3.50123)
+Time integrator took 20 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 616 618 618 618 616 614
+  Number of 1-cells per rank: 1458 1461 1461 1461 1456 1453
+  Number of 2-cells per rank: 1109 1110 1110 1110 1106 1105
+  Number of 3-cells per rank: 267 267 267 267 266 266
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (616), 1 (1458), 2 (1109), 3 (267))
+  marker: 1 strata with value/size (1 (1684))
+  Face Sets: 2 strata with value/size (1 (267), 2 (267))
+  celltype: 4 strata with value/size (0 (616), 1 (1458), 4 (1109), 7 (267))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : euler_vortex
+    Test Case                          : isentropic_vortex
+    Background Velocity                : 1.000000,1.000000,0.000000
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/opt/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 40,40,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 83200
+    Owned DoFs                         : 12818
+    DoFs per node                      : 5
+    Global nodes                       : 16640
+    Owned nodes                        : 3450
+Time taken for solution (sec): 273.802
+Relative Error converted from conservative to primitive:
+Component 0: 0.000337486 (0.000337486, 1.)
+Component 1: 0.0012187 (0.0012201, 1.00115)
+Component 2: 0.000331539 (0.000331594, 1.00017)
+Component 3: inf. (4.86673e-13, 0.)
+Component 4: 0.00029693 (0.00029693, 1.)
+Relative Error in conservative:
+Component 0: 0.000442327 (0.000442327, 1.)
+Component 1: 0.00112545 (0.00112674, 1.00115)
+Component 2: 0.000619177 (0.00061928, 1.00017)
+Component 3: inf. (4.86673e-13, 0.)
+Component 4: 0.000365223 (0.00127871, 3.50118)
+Time integrator took 40 time steps to reach final time 1.

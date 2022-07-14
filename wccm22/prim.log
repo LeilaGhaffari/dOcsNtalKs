@@ -1,0 +1,409 @@
+Primitive Variables
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 20 20 22 22 22 20
+  Number of 1-cells per rank: 40 36 39 39 39 36
+  Number of 2-cells per rank: 25 21 22 22 22 21
+  Number of 3-cells per rank: 5 4 4 4 4 4
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (20), 1 (40), 2 (25), 3 (5))
+  marker: 1 strata with value/size (1 (40))
+  Face Sets: 2 strata with value/size (1 (5), 2 (5))
+  celltype: 4 strata with value/size (0 (20), 1 (40), 4 (25), 7 (5))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 5,5,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 200
+    Owned DoFs                         : 0
+    DoFs per node                      : 5
+    Global nodes                       : 40
+    Owned nodes                        : 20
+Time taken for solution (sec): 1.67953
+Relative Error converted from primitive to conservative:
+Component 0: 0.0343139 (0.0343139, 1.)
+Component 1: 0.202587 (0.206276, 1.01821)
+Component 2: 0.159074 (0.159797, 1.00454)
+Component 3: -nan. (0., 0.)
+Component 4: 0.0899736 (0.316968, 3.5229)
+Relative Error in primitive:
+Component 0: 0.0533252 (0.0533252, 1.)
+Component 1: 0.173884 (0.177052, 1.01822)
+Component 2: 0.155606 (0.156315, 1.00455)
+Component 3: -nan. (0., 0.)
+Component 4: 0.0208008 (0.0208008, 1.)
+Time integrator took 3 time steps to reach final time 1.2
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 20 20 22 22 22 20
+  Number of 1-cells per rank: 40 36 39 39 39 36
+  Number of 2-cells per rank: 25 21 22 22 22 21
+  Number of 3-cells per rank: 5 4 4 4 4 4
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (20), 1 (40), 2 (25), 3 (5))
+  marker: 1 strata with value/size (1 (40))
+  Face Sets: 2 strata with value/size (1 (5), 2 (5))
+  celltype: 4 strata with value/size (0 (20), 1 (40), 4 (25), 7 (5))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 5,5,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 1300
+    Owned DoFs                         : 130
+    DoFs per node                      : 5
+    Global nodes                       : 260
+    Owned nodes                        : 90
+Time taken for solution (sec): 27.4819
+Relative Error converted from primitive to conservative:
+Component 0: 0.034947 (0.034947, 1.)
+Component 1: 0.0821142 (0.0856981, 1.04365)
+Component 2: 0.0761427 (0.0768137, 1.00881)
+Component 3: inf. (8.76947e-15, 0.)
+Component 4: 0.0832196 (0.294958, 3.54434)
+Relative Error in primitive:
+Component 0: 0.0691804 (0.0691804, 1.)
+Component 1: 0.0522159 (0.0544991, 1.04373)
+Component 2: 0.0469279 (0.0473427, 1.00884)
+Component 3: inf. (8.7772e-15, 0.)
+Component 4: 0.0358409 (0.0358409, 1.)
+Time integrator took 5 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 56 58 58 58 56 54
+  Number of 1-cells per rank: 118 121 121 121 116 113
+  Number of 2-cells per rank: 79 80 80 80 76 75
+  Number of 3-cells per rank: 17 17 17 17 16 16
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (56), 1 (118), 2 (79), 3 (17))
+  marker: 1 strata with value/size (1 (124))
+  Face Sets: 2 strata with value/size (1 (17), 2 (17))
+  celltype: 4 strata with value/size (0 (56), 1 (118), 4 (79), 7 (17))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 10,10,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 800
+    Owned DoFs                         : 48
+    DoFs per node                      : 5
+    Global nodes                       : 160
+    Owned nodes                        : 56
+Time taken for solution (sec): 5.80553
+Relative Error converted from primitive to conservative:
+Component 0: 0.0205542 (0.0205542, 1.)
+Component 1: 0.0297808 (0.0300447, 1.00886)
+Component 2: 0.051319 (0.0513907, 1.0014)
+Component 3: -nan. (0., 0.)
+Component 4: 0.0387613 (0.136058, 3.51016)
+Relative Error in primitive:
+Component 0: 0.0308446 (0.0308446, 1.)
+Component 1: 0.0144636 (0.0145918, 1.00886)
+Component 2: 0.0314663 (0.0315103, 1.0014)
+Component 3: -nan. (0., 0.)
+Component 4: 0.0129388 (0.0129388, 1.)
+Time integrator took 5 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 56 58 58 58 56 54
+  Number of 1-cells per rank: 118 121 121 121 116 113
+  Number of 2-cells per rank: 79 80 80 80 76 75
+  Number of 3-cells per rank: 17 17 17 17 16 16
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (56), 1 (118), 2 (79), 3 (17))
+  marker: 1 strata with value/size (1 (124))
+  Face Sets: 2 strata with value/size (1 (17), 2 (17))
+  celltype: 4 strata with value/size (0 (56), 1 (118), 4 (79), 7 (17))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 10,10,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 5200
+    Owned DoFs                         : 598
+    DoFs per node                      : 5
+    Global nodes                       : 1040
+    Owned nodes                        : 270
+Time taken for solution (sec): 53.7038
+Relative Error converted from primitive to conservative:
+Component 0: 0.00478785 (0.00478785, 1.)
+Component 1: 0.00849801 (0.00855925, 1.00721)
+Component 2: 0.00905305 (0.00906398, 1.00121)
+Component 3: inf. (6.42441e-15, 0.)
+Component 4: 0.00908427 (0.0318626, 3.50745)
+Relative Error in primitive:
+Component 0: 0.00830359 (0.00830359, 1.)
+Component 1: 0.00616274 (0.00620716, 1.00721)
+Component 2: 0.00451796 (0.00452342, 1.00121)
+Component 3: inf. (6.42455e-15, 0.)
+Component 4: 0.00363418 (0.00363418, 1.)
+Time integrator took 11 time steps to reach final time 1.1
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 176 178 178 178 176 174
+  Number of 1-cells per rank: 398 401 401 401 396 393
+  Number of 2-cells per rank: 289 290 290 290 286 285
+  Number of 3-cells per rank: 67 67 67 67 66 66
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (176), 1 (398), 2 (289), 3 (67))
+  marker: 1 strata with value/size (1 (444))
+  Face Sets: 2 strata with value/size (1 (67), 2 (67))
+  celltype: 4 strata with value/size (0 (176), 1 (398), 4 (289), 7 (67))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 20,20,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 3200
+    Owned DoFs                         : 368
+    DoFs per node                      : 5
+    Global nodes                       : 640
+    Owned nodes                        : 176
+Time taken for solution (sec): 25.9401
+Relative Error converted from primitive to conservative:
+Component 0: 0.0022114 (0.0022114, 1.)
+Component 1: 0.00162449 (0.0016252, 1.00044)
+Component 2: 0.00346731 (0.00346756, 1.00007)
+Component 3: -nan. (0., 0.)
+Component 4: 0.00296709 (0.0103862, 3.50045)
+Relative Error in primitive:
+Component 0: 0.0031409 (0.0031409, 1.)
+Component 1: 0.00127562 (0.00127618, 1.00044)
+Component 2: 0.00131789 (0.00131798, 1.00007)
+Component 3: -nan. (0., 0.)
+Component 4: 0.000931558 (0.000931558, 1.)
+Time integrator took 11 time steps to reach final time 1.1
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 176 178 178 178 176 174
+  Number of 1-cells per rank: 398 401 401 401 396 393
+  Number of 2-cells per rank: 289 290 290 290 286 285
+  Number of 3-cells per rank: 67 67 67 67 66 66
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (176), 1 (398), 2 (289), 3 (67))
+  marker: 1 strata with value/size (1 (444))
+  Face Sets: 2 strata with value/size (1 (67), 2 (67))
+  celltype: 4 strata with value/size (0 (176), 1 (398), 4 (289), 7 (67))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 20,20,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 20800
+    Owned DoFs                         : 2938
+    DoFs per node                      : 5
+    Global nodes                       : 4160
+    Owned nodes                        : 930
+Time taken for solution (sec): 86.0411
+Relative Error converted from primitive to conservative:
+Component 0: 0.00164089 (0.00164089, 1.)
+Component 1: 0.00346252 (0.00346483, 1.00067)
+Component 2: 0.00247098 (0.00247121, 1.0001)
+Component 3: inf. (1.59871e-14, 0.)
+Component 4: 0.00195778 (0.00685358, 3.50068)
+Relative Error in primitive:
+Component 0: 0.00134113 (0.00134113, 1.)
+Component 1: 0.00351848 (0.00352083, 1.00067)
+Component 2: 0.00108043 (0.00108053, 1.0001)
+Component 3: inf. (1.59871e-14, 0.)
+Component 4: 0.000991427 (0.000991427, 1.)
+Time integrator took 20 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 616 618 618 618 616 614
+  Number of 1-cells per rank: 1458 1461 1461 1461 1456 1453
+  Number of 2-cells per rank: 1109 1110 1110 1110 1106 1105
+  Number of 3-cells per rank: 267 267 267 267 266 266
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (616), 1 (1458), 2 (1109), 3 (267))
+  marker: 1 strata with value/size (1 (1684))
+  Face Sets: 2 strata with value/size (1 (267), 2 (267))
+  celltype: 4 strata with value/size (0 (616), 1 (1458), 4 (1109), 7 (267))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 40,40,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 2
+    Number of 1D Quadrature Points (Q) : 2
+    Global DoFs                        : 12800
+    Owned DoFs                         : 1808
+    DoFs per node                      : 5
+    Global nodes                       : 2560
+    Owned nodes                        : 616
+Time taken for solution (sec): 47.3298
+Relative Error converted from primitive to conservative:
+Component 0: 6.20605e-06 (6.20605e-06, 1.)
+Component 1: 0.000547682 (0.000548276, 1.00108)
+Component 2: 8.20491e-05 (8.20621e-05, 1.00016)
+Component 3: -nan. (0., 0.)
+Component 4: 0.000166579 (0.000583213, 3.50112)
+Relative Error in primitive:
+Component 0: 8.69304e-06 (8.69304e-06, 1.)
+Component 1: 0.000542505 (0.000543093, 1.00108)
+Component 2: 8.17563e-05 (8.17692e-05, 1.00016)
+Component 3: -nan. (0., 0.)
+Component 4: 2.48701e-06 (2.48701e-06, 1.)
+Time integrator took 20 time steps to reach final time 1.
+DM Object: box 6 MPI processes
+  type: plex
+box in 3 dimensions:
+  Number of 0-cells per rank: 616 618 618 618 616 614
+  Number of 1-cells per rank: 1458 1461 1461 1461 1456 1453
+  Number of 2-cells per rank: 1109 1110 1110 1110 1106 1105
+  Number of 3-cells per rank: 267 267 267 267 266 266
+Periodic mesh (PERIODIC, PERIODIC, NONE) coordinates localized
+Labels:
+  depth: 4 strata with value/size (0 (616), 1 (1458), 2 (1109), 3 (267))
+  marker: 1 strata with value/size (1 (1684))
+  Face Sets: 2 strata with value/size (1 (267), 2 (267))
+  celltype: 4 strata with value/size (0 (616), 1 (1458), 4 (1109), 7 (267))
+
+-- Navier-Stokes solver - libCEED + PETSc --
+  MPI:
+    Host Name                          : leila-ThinkPad-P53s
+    Total ranks                        : 6
+  Problem:
+    Problem Name                       : channel
+    Stabilization                      : none
+  libCEED:
+    libCEED Backend                    : /cpu/self/avx/blocked
+    libCEED Backend MemType            : host
+  PETSc:
+    Box Faces                          : 40,40,1
+    DM MatType                         : aij
+    DM VecType                         : standard
+    Time Stepping Scheme               : implicit
+  Mesh:
+    Number of 1D Basis Nodes (P)       : 3
+    Number of 1D Quadrature Points (Q) : 3
+    Global DoFs                        : 83200
+    Owned DoFs                         : 12818
+    DoFs per node                      : 5
+    Global nodes                       : 16640
+    Owned nodes                        : 3450
+Time taken for solution (sec): 213.296
+Relative Error converted from primitive to conservative:
+Component 0: 0.000315502 (0.000315502, 1.)
+Component 1: 0.00145652 (0.00145811, 1.00109)
+Component 2: 0.000585453 (0.000585546, 1.00016)
+Component 3: inf. (1.97045e-14, 0.)
+Component 4: 0.00055909 (0.00195744, 3.50112)
+Relative Error in primitive:
+Component 0: 0.00029733 (0.00029733, 1.)
+Component 1: 0.00144831 (0.0014499, 1.00109)
+Component 2: 0.000490337 (0.000490415, 1.00016)
+Component 3: inf. (1.97044e-14, 0.)
+Component 4: 0.000321008 (0.000321008, 1.)
+Time integrator took 40 time steps to reach final time 1.
