@@ -1,0 +1,31 @@
+,State Variables,Polynomial Order,Variable,Global DoFs,Relative Error
+0,Conservative,1,Total Energy,20770,0.0127078
+1,Conservative,1,Temperature,20770,0.0030808
+2,Conservative,1,Total Energy,5266,0.00718316
+3,Conservative,1,Temperature,5266,0.00161623
+4,Conservative,1,Total Energy,1354,0.00425912
+5,Conservative,1,Temperature,1354,0.000932463
+6,Conservative,1,Total Energy,358,0.00258687
+7,Conservative,1,Temperature,358,0.000487977
+8,Primitive,1,Temperature,20770,0.00138868
+9,Primitive,1,Total Energy,20770,0.00330904
+10,Primitive,1,Temperature,5266,0.00109875
+11,Primitive,1,Total Energy,5266,0.00167844
+12,Primitive,1,Temperature,1354,0.000567112
+13,Primitive,1,Total Energy,1354,0.00102651
+14,Primitive,1,Temperature,358,0.000752275
+15,Primitive,1,Total Energy,358,0.000547253
+16,Conservative,2,Total Energy,33715,0.00753783
+17,Conservative,2,Temperature, 33715,0.00111891
+18,Conservative,2,Total Energy,8539,0.00479782
+19,Conservative,2,Temperature, 8539,0.000684706
+20,Conservative,2,Total Energy,2191,0.003213
+21,Conservative,2,Temperature, 2191,0.000381646
+22,Conservative,2,Total Energy,467,0.00281507
+23,Conservative,2,Temperature, 467,0.000552078
+24,Primitive,2,Temperature, 8539,0.00130101
+25,Primitive,2,Total Energy,8539,0.000756339
+26,Primitive,2,Temperature, 2191,0.000871886
+27,Primitive,2,Total Energy,2191,0.000469303
+28,Primitive,2,Temperature,467,0.000919945
+29,Primitive,2,Total Energy, 467,0.00069945
